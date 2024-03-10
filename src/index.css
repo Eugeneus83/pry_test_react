@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Noto Sans JP", sans-serif;
+}
+
+body {
+    margin: 10px;
+}
+
+.inline-block {
+    background-color: grey;
+}
+
+.shadow-lg {
+    --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / .1), 0 4px 6px -4px rgb(0 0 0 / .1);
+    --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.py-3 {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}
+
+.px-2 {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.bg-white {
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.rounded {
+    border-radius: 0.25rem;
+}
+
+.left-0 {
+    left: 0px;
+}
+
+.text-12 {
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: .01em;
+}
+
+.font-sans {
+    font-family: IBM Plex Sans, sans-serif;
+}
+
+.flex-grow {
+    flex-grow: 1;
+}
+
+.w-64 {
+    width: 16rem;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+.absolute {
+    position: absolute;
+}
+
+li.cursor-pointer {
+    cursor: pointer;
+}
+
+li.cursor-pointer:hover {
+    background-color: gold;
+}
+
+span.formula-fragment {
+    margin: 5px;
+    background-color: #8FBC8F;
+}
+
+p.input-error {
+    font-size: 10px;
+    color: red;
+}
